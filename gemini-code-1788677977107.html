@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imma Alfiyatul Masruroh - Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#0F172A',
+                            900: '#0B132B',
+                        },
+                        gold: {
+                            400: '#F59E0B',
+                            500: '#D97706',
+                            600: '#B45309',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-gold-500 selection:text-white">
+
+    <header class="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-md z-50 border-b border-slate-100 shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold text-navy-900 tracking-tight">
+                Imma<span class="text-gold-500">.</span>
+            </a>
+            
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold text-slate-600">
+                <a href="#about" class="hover:text-gold-500 transition-colors">Tentang Saya</a>
+                <a href="#experience" class="hover:text-gold-500 transition-colors">Pengalaman</a>
+                <a href="#projects" class="hover:text-gold-500 transition-colors">Proyek</a>
+                <a href="#skills" class="hover:text-gold-500 transition-colors">Keterampilan</a>
+                <a href="#contact" class="hover:text-gold-500 transition-colors">Kontak</a>
+            </nav>
+
+            <a href="#contact" class="px-5 py-2.5 rounded-full text-sm font-semibold bg-navy-900 text-white hover:bg-gold-500 transition-all shadow-md">
+                Hubungi Saya
+            </a>
+        </div>
+    </header>
+
+    <section class="pt-36 pb-20 md:pt-48 md:pb-32 max-w-6xl mx-auto px-6">
+        <div class="grid md:grid-cols-12 gap-12 items-center">
+            <div class="md:col-span-7 space-y-6">
+                <div class="inline-flex items-center space-x-2 bg-amber-50 border border-amber-200 text-gold-600 px-3 py-1 rounded-full text-xs font-semibold">
+                    <span class="w-2 h-2 rounded-full bg-gold-500 animate-pulse"></span>
+                    <span>Fresh Graduate Pendidikan Geografi</span>
+                </div>
+                
+                <h1 class="text-4xl md:text-6xl font-extrabold text-navy-900 leading-tight">
+                    Imma Alfiyatul <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-gold-500 to-gold-600">
+                        Masruroh
+                    </span>
+                </h1>
+
+                <p class="text-slate-600 text-lg leading-relaxed">
+                    Spesialis di bidang pendidikan, mitigasi kebencanaan, analisis sosial-ekonomi, dan pengembangan wilayah. Berkomitmen menyampaikan wawasan kontekstual melalui pendekatan spasial dan data terintegrasi.
+                </p>
+
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="#experience" class="px-6 py-3 bg-navy-900 text-white rounded-xl font-semibold shadow-lg shadow-navy-900/20 hover:bg-gold-500 transition-all">
+                        Lihat Pengalaman
+                    </a>
+                    <a href="https://www.linkedin.com/in/immaalfiyatulm" target="_blank" class="px-6 py-3 bg-white border border-slate-200 text-slate-700 rounded-xl font-semibold hover:border-gold-500 hover:text-gold-500 transition-all flex items-center space-x-2">
+                        <i class="fab font-normal fa-linkedin"></i>
+                        <span>immaalfiyatul</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="md:col-span-5 flex justify-center">
+                <div class="relative w-64 h-64 md:w-80 md:h-80">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-gold-500 to-navy-900 rounded-2xl rotate-6 opacity-20"></div>
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800" alt="Imma Alfiyatul Masruroh" class="relative z-10 w-full h-full object-cover rounded-2xl shadow-xl border-4 border-white">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white border-y border-slate-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="max-w-3xl">
+                <h2 class="text-gold-500 text-sm font-bold tracking-widest uppercase mb-2">Tentang Saya</h2>
+                <h3 class="text-3xl font-bold text-navy-900 mb-6">Pendidikan & Orientasi Profesional</h3>
+                <p class="text-slate-600 text-lg leading-relaxed mb-8">
+                    Lulusan S1 Pendidikan Geografi Universitas Negeri Surabaya (IPK 3.78) dengan ketertarikan tinggi pada isu-isu sosial, kebencanaan, serta tata ruang wilayah. Berbekal latar belakang akademis dan praktik lapangan, saya adaptif dalam pengolahan data spasial, pengembangan modul pembelajaran, dan manajemen kegiatan publik.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="p-6 bg-slate-50 border border-slate-200/60 rounded-2xl hover:border-gold-400 transition-all">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h4 class="text-lg font-bold text-navy-900">Universitas Negeri Surabaya</h4>
+                            <p class="text-slate-500 text-sm">S1 Pendidikan Geografi</p>
+                        </div>
+                        <span class="bg-amber-100 text-gold-600 font-bold px-3 py-1 rounded-full text-xs">
+                            IPK 3.78 / 4.00
+                        </span>
+                    </div>
+                    <p class="text-slate-400 text-sm">2022 - 2026</p>
+                </div>
+
+                <div class="p-6 bg-slate-50 border border-slate-200/60 rounded-2xl hover:border-gold-400 transition-all">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h4 class="text-lg font-bold text-navy-900">SMA Negeri 1 Krembung</h4>
+                            <p class="text-slate-500 text-sm">Peminatan MIPA</p>
+                        </div>
+                        <span class="bg-amber-100 text-gold-600 font-bold px-3 py-1 rounded-full text-xs">
+                            Nilai 91.84 / 100.00
+                        </span>
+                    </div>
+                    <p class="text-slate-400 text-sm">2019 - 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 max-w-6xl mx-auto px-6">
+        <div class="mb-12">
+            <h2 class="text-gold-500 text-sm font-bold tracking-widest uppercase mb-2">Pengalaman</h2>
+            <h3 class="text-3xl font-bold text-navy-900">Pengalaman Kerja & Praktik</h3>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-xs font-semibold text-gold-600 bg-amber-50 px-3 py-1 rounded-full">Sep - Nov 2024</span>
+                    <i class="fas fa-shield-alt text-navy-800"></i>
+                </div>
+                <h4 class="text-xl font-bold text-navy-900">BPBD Kota Surabaya</h4>
+                <p class="text-slate-500 text-sm font-medium mb-4">Pencegahan dan Kesiapsiagaan</p>
+                <ul class="text-slate-600 text-sm space-y-2 list-disc list-inside">
+                    <li>Menyusun materi edukasi & sosialisasi mitigasi bencana untuk sekolah dan publik.</li>
+                    <li>Mengelola data kejadian bencana di wilayah Kota Surabaya secara akurat.</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-xs font-semibold text-gold-600 bg-amber-50 px-3 py-1 rounded-full">Agu - Des 2024</span>
+                    <i class="fas fa-heartbeat text-navy-800"></i>
+                </div>
+                <h4 class="text-xl font-bold text-navy-900">SMCC UNESA</h4>
+                <p class="text-slate-500 text-sm font-medium mb-4">Tim Mitigasi Bencana</p>
+                <ul class="text-slate-600 text-sm space-y-2 list-disc list-inside">
+                    <li>Mengembangkan materi edukasi komunikatif untuk kebencanaan sekolah.</li>
+                    <li>Merancang pamflet informatif risiko bencana untuk peningkatkan kesadaran masyarakat.</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-xs font-semibold text-gold-600 bg-amber-50 px-3 py-1 rounded-full">Mar - Jun 2025</span>
+                    <i class="fas fa-chalkboard-teacher text-navy-800"></i>
+                </div>
+                <h4 class="text-xl font-bold text-navy-900">SMA Negeri 4 Sidoarjo</h4>
+                <p class="text-slate-500 text-sm font-medium mb-4">Guru Geografi</p>
+                <ul class="text-slate-600 text-sm space-y-2 list-disc list-inside">
+                    <li>Mengajar kelas XI Kurikulum Merdeka (penjurusan TNI/Polri) beban 5 JP/minggu.</li>
+                    <li>Menyusun Modul Ajar Bab Mitigasi Bencana, LKPD, serta instrumen evaluasi PTS/PSAT.</li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+                <div class="flex justify-between items-center mb-4">
+                    <span class="text-xs font-semibold text-gold-600 bg-amber-50 px-3 py-1 rounded-full">Jun - Agu 2026</span>
+                    <i class="fas fa-chart-line text-navy-800"></i>
+                </div>
+                <h4 class="text-xl font-bold text-navy-900">BPS Sidoarjo</h4>
+                <p class="text-slate-500 text-sm font-medium mb-4">Petugas Sensus Ekonomi 2026</p>
+                <ul class="text-slate-600 text-sm space-y-2 list-disc list-inside">
+                    <li>Melakukan pendataan, wawancara, verifikasi, dan pencatatan instrumen lapangan.</li>
+                    <li>Memastikan validitas data pelaku usaha secara metodologis dan akurat.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 bg-slate-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="mb-12">
+                <h2 class="text-gold-500 text-sm font-bold tracking-widest uppercase mb-2">Studi & Riset</h2>
+                <h3 class="text-3xl font-bold text-navy-900">Proyek Analisis & Lapangan</h3>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-bold text-slate-400">2025</span>
+                        <h4 class="text-lg font-bold text-navy-900 mt-1 mb-3">Analisis Wilayah Kota Semarang</h4>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Menggunakan metode LQ, Shift-Share, RCA, dan analisis demografi data PDRB/Disdukcapil untuk identifikasi sektor unggulan daerah.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-100 text-xs font-medium text-gold-600">
+                        PDRB • Shift-Share • Demografi
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-bold text-slate-400">2025</span>
+                        <h4 class="text-lg font-bold text-navy-900 mt-1 mb-3">PLK Wilayah Ubud, Bali</h4>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Analisis data sosial-ekonomi dan tingkat kepadatan lalu lintas wilayah pariwisata. Menghasilkan output berupa peta spasial, video, dan artikel.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-100 text-xs font-medium text-gold-600">
+                        Survei Lapangan • Pemetaan • Output Media
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-6 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-bold text-slate-400">2024</span>
+                        <h4 class="text-lg font-bold text-navy-900 mt-1 mb-3">Verifikasi Lahan Surabaya</h4>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Plotting waypoint & penyusunan rute menggunakan Avenza Maps & GPS Map Camera di Gayungan, Wonokromo, dan Wonocolo.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-slate-100 text-xs font-medium text-gold-600">
+                        Avenza Maps • Survey • Waypoint Plotting
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 max-w-6xl mx-auto px-6">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+            <h2 class="text-gold-500 text-sm font-bold tracking-widest uppercase mb-2">Keahlian</h2>
+            <h3 class="text-3xl font-bold text-navy-900">Keterampilan Teknis & Soft Skills</h3>
+        </div>
+
+        <div class="space-y-10">
+            <div>
+                <h4 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-4 text-center">Hard Skills & Perangkat Lunak</h4>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <span class="px-5 py-2.5 bg-navy-900 text-white rounded-xl text-sm font-medium shadow-sm hover:scale-105 transition-transform">QGIS</span>
+                    <span class="px-5 py-2.5 bg-navy-900 text-white rounded-xl text-sm font-medium shadow-sm hover:scale-105 transition-transform">Google Earth</span>
+                    <span class="px-5 py-2.5 bg-navy-900 text-white rounded-xl text-sm font-medium shadow-sm hover:scale-105 transition-transform">Avenza Maps</span>
+                    <span class="px-5 py-2.5 bg-navy-900 text-white rounded-xl text-sm font-medium shadow-sm hover:scale-105 transition-transform">GPS Map Camera</span>
+                    <span class="px-5 py-2.5 bg-navy-900 text-white rounded-xl text-sm font-medium shadow-sm hover:scale-105 transition-transform">Microsoft Office</span>
+                    <span class="px-5 py-2.5 bg-navy-900 text-white rounded-xl text-sm font-medium shadow-sm hover:scale-105 transition-transform">Google Workspace</span>
+                    <span class="px-5 py-2.5 bg-navy-900 text-white rounded-xl text-sm font-medium shadow-sm hover:scale-105 transition-transform">Canva</span>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-4 text-center">Interpersonal & Profesional</h4>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <span class="px-5 py-2.5 bg-amber-50 border border-gold-400 text-gold-600 rounded-xl text-sm font-semibold">Komunikasi</span>
+                    <span class="px-5 py-2.5 bg-amber-50 border border-gold-400 text-gold-600 rounded-xl text-sm font-semibold">Kerja Sama Tim</span>
+                    <span class="px-5 py-2.5 bg-amber-50 border border-gold-400 text-gold-600 rounded-xl text-sm font-semibold">Berpikir Analitis</span>
+                    <span class="px-5 py-2.5 bg-amber-50 border border-gold-400 text-gold-600 rounded-xl text-sm font-semibold">Pemecahan Masalah</span>
+                    <span class="px-5 py-2.5 bg-amber-50 border border-gold-400 text-gold-600 rounded-xl text-sm font-semibold">Ketelitian Data</span>
+                    <span class="px-5 py-2.5 bg-amber-50 border border-gold-400 text-gold-600 rounded-xl text-sm font-semibold">Manajemen Waktu</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-navy-900 text-white">
+        <div class="max-w-4xl mx-auto px-6 text-center space-y-8">
+            <h2 class="text-gold-400 text-sm font-bold tracking-widest uppercase">Kontak</h2>
+            <h3 class="text-3xl md:text-4xl font-extrabold">Mari Bekerja Sama</h3>
+            <p class="text-slate-300 max-w-xl mx-auto">
+                Terbuka untuk peluang karir di bidang pendidikan, riset, mitigasi bencana, serta analisis pengembangan wilayah.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-6 pt-6">
+                <a href="mailto:immaalfiyatul@gmail.com" class="p-6 bg-navy-800 rounded-2xl border border-slate-700 hover:border-gold-500 transition-colors">
+                    <i class="fas fa-envelope text-gold-400 text-2xl mb-3"></i>
+                    <p class="text-xs text-slate-400">Email</p>
+                    <p class="text-sm font-medium mt-1 truncate">immaalfiyatul@gmail.com</p>
+                </a>
+
+                <a href="tel:081332008734" class="p-6 bg-navy-800 rounded-2xl border border-slate-700 hover:border-gold-500 transition-colors">
+                    <i class="fas fa-phone text-gold-400 text-2xl mb-3"></i>
+                    <p class="text-xs text-slate-400">Telepon / WhatsApp</p>
+                    <p class="text-sm font-medium mt-1">081332008734</p>
+                </a>
+
+                <div class="p-6 bg-navy-800 rounded-2xl border border-slate-700">
+                    <i class="fas fa-map-marker-alt text-gold-400 text-2xl mb-3"></i>
+                    <p class="text-xs text-slate-400">Lokasi</p>
+                    <p class="text-sm font-medium mt-1">Sidoarjo, Jawa Timur</p>
+                </div>
+            </div>
+
+            <div class="pt-12 text-slate-500 text-xs border-t border-slate-800">
+                &copy; 2026 Imma Alfiyatul Masruroh. All rights reserved.
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
